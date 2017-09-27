@@ -17,7 +17,7 @@ public class HelloController
     	String buf = new String();
     	try {
     	      InetAddress addr = InetAddress.getLocalHost();
-    	      buf = "Hello HPE -----v2------, Spring Boot Sample Application: IP Address :" + addr.getHostAddress();
+    	      buf = "Hello version 2, Spring Boot Sample Application: IP Address :" + addr.getHostAddress();
     	    } catch (UnknownHostException e) {
     	      e.printStackTrace();
     	    }    	
